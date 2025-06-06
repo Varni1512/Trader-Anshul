@@ -14,6 +14,8 @@ function About() {
           backgroundRepeat: 'no-repeat',
         }}
       >
+        {/* Background overlay for better text readability */}
+        <div className="absolute inset-0 bg-white/75 backdrop-blur-sm"></div>
 
         {/* Main content */}
         <div className="relative z-10">
@@ -29,9 +31,8 @@ function About() {
             About Me
           </h2>
           
-
           <ul
-            className="space-y-6 text-base  list-none"
+            className="space-y-6 text-base list-none"
             style={{
               fontFamily: '"Times New Roman", serif',
               fontWeight: 400,
@@ -40,22 +41,22 @@ function About() {
             }}
           >
             <li>
-              • I’m a stock market trader who comes from an engineering background. Like most beginners, I went through the usual path — mentors, trading books, weekend courses. But after all that, one truth stood out:
+              • I'm a stock market trader who comes from an engineering background. Like most beginners, I went through the usual path — mentors, trading books, weekend courses. But after all that, one truth stood out:
             </li>
             <li>
-              • Trading can’t be taught. It’s a skill that takes time, experience, and self-awareness to develop.
+              • Trading can't be taught. It's a skill that takes time, experience, and self-awareness to develop.
             </li>
             <li>
-              • I’m also a huge cricket fan. And every time legends like SACHIN TENDULKAR, RAHUL DRAVID AND VIRAT KOHLI talk about game awareness, they echo something simple: Keep it simple. Enjoy the game.
+              • I'm also a huge cricket fan. And every time legends like <span className="text-green-700 font-semibold">SACHIN TENDULKAR, RAHUL DRAVID AND VIRAT KOHLI</span> talk about game awareness, they echo something simple: Keep it simple. Enjoy the game.
             </li>
             <li>
-              • That, to me, is the core of trading. You don’t need complicated setups or secret indicators. You need clarity, discipline, and the ability to stay grounded.
+              • That, to me, is the core of trading. You don't need complicated setups or secret indicators. You need clarity, discipline, and the ability to stay grounded.
             </li>
             <li>
-              • I still remember my first trade—hands trembling as I hit ‘buy’, heart racing as I watched the P&L tick up and down. Everyone goes through that stage...
+              • I still remember my first trade—hands trembling as I hit 'buy', heart racing as I watched the P&L tick up and down. Everyone goes through that stage...
             </li>
             <li>
-              • This website is my space. To document my trades, share what I’ve learned, and hopefully help traders who are tired of the noise, the hype, and the “get-rich” nonsense.
+              • This website is my space. To document my trades, share what I've learned, and hopefully help traders who are tired of the noise, the hype, and the "get-rich" nonsense.
             </li>
           </ul>
         </div>
